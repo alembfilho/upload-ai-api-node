@@ -1,0 +1,10 @@
+# @name upload
+POST http://localhost:3333/videos
+Content-Type: multipart/form-data; boundary=Alessandro
+
+Alessandro
+Content-Disposition: form-data; name="file"; filename="teste.mp3"
+Content-Type: audio/mpeg
+
+< ./teste.mp3>
+Alessandro
